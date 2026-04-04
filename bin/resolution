@@ -1,0 +1,19 @@
+#!/bin/bash
+unset IFS
+set -eu
+
+usage() {
+    printf "Usage: %s <video>\n" "$0"
+}
+
+if [ "$#" != 1 ]; then
+    usage
+    exit 1
+fi
+
+ffprobe \
+    -v error \
+    -select_streams v:0 \
+    -show_entries 'stream=width,height' \
+    -of csv=s=x:p=0 \
+    "$1"
