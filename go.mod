@@ -1,6 +1,6 @@
 module github.com/mcandre/resolution
 
-go 1.27.0
+go 1.27.3
 
 tool (
 	github.com/mcandre/slick/cmd/slick
