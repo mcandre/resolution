@@ -1,6 +1,6 @@
 # resolution: video analyzer
 
-[![CI/CD](https://badgen.net/github/checks/mcandre/resolution?icon=github)](https://github.com/mcandre/resolution/actions) [![License](https://badgen.net/static/license/BSD/ab2b29?icon=freebsd)](LICENSE.md)
+[![CI/CD](https://badgen.net/github/checks/mcandre/resolution?icon=github)](https://github.com/mcandre/resolution/actions) [![License](https://badgen.net/static/license/BSD/ab2b29?icon=freebsd)](LICENSE.md) [![AI](https://badgen.net/static/ai/Gemini|hint?color=886fbf&icon=google-gemini)](AI-DECLARATION.md)
 
 # SUMMARY
 
